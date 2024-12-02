@@ -1,3 +1,3 @@
 
 # React-Portfolio-Site
-This is my portfolio website using React
+This is my 3D portfolio website using React
