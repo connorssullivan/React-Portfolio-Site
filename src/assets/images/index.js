@@ -10,6 +10,11 @@ import lifeguard from './lifeguard.jpg'
 import mm from './mm_logo.jpg'
 import zoo from './zoo.jpeg'
 import battleShip from './bs.png'
+import cards from './cards.jpg'
+import ai from './ai.jpg'
+import dune_cover from './dune_cover.jpeg'
+import meditations_cover from './meditations.jpeg'
+
 
 export {
     hero,
@@ -23,5 +28,9 @@ export {
     lifeguard,
     mm, 
     zoo,
-    battleShip
+    battleShip,
+    cards,
+    ai,
+    dune_cover, 
+    meditations_cover
 }

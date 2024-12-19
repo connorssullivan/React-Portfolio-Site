@@ -38,3 +38,9 @@ This portfolio is a platform to:
 ---
 
 Thank you for visiting! 🎉
+
+
+
+## Build and Run
+- npm run build: Builds Dist Folder for Deployment
+- npm run dev: Runs Development Enviorment in Browser

@@ -1,4 +1,4 @@
-import { meta, shopify, tesla, su, boxing, lifeguard,mm, zoo, battleShip  } from "../assets/images";
+import { meta, shopify, tesla, su, boxing, lifeguard,mm, zoo, battleShip, cards, ai, logo, dune_cover, meditations_cover} from "../assets/images";
 import {
     car,
     contact,
@@ -188,4 +188,55 @@ export const projects = [
         description: 'This is a Java implementation of the classic Battleship game. It features a graphical user interface where players can place their ships, take turns attacking their opponents grid, and listen to sounds indicating successful hits',
         link: 'https://github.com/connorssullivan/Java-Multiplayer-Battleship',
     },
+    {
+        iconUrl: cards,
+        theme: 'btn-back-black',
+        name: 'Slots Overflow Casino',
+        description: 'This is a C++ terminal based casino game that lets you play poker and blackjack. This project is not very impressive, but it is near and dear to my heart because it was one of my first.',
+        link: 'https://github.com/connorssullivan/Slots-Overflow-Casino'
+    },
+    {
+        iconUrl: ai,
+        theme: 'btn-back-pink',
+        name: 'Python Ai Projects',
+        description: 'This is a collection of Python projects from my AI class',
+        link: 'https://github.com/connorssullivan/Python-AI-Projects'
+    },
+    {
+        iconUrl: logo,
+        theme: 'btn-back-white',
+        name: '3D Parallax Portfolio Website',
+        description: 'My React 3D Portfolio Website, a visually engaging platform designed to showcase my projects, skills, and experiences. This portfolio combines the power of React with 3D visualizations to create an immersive user experience.',
+        link: 'https://github.com/connorssullivan/React-Portfolio-Site'
+    },
+];
+
+export const books = [
+    {
+        title: "Dune 1",
+        author: "Frank Herbert",
+        description: "Dune by Frank Herbert is a science fiction epic set on the desert planet Arrakis, where young Paul Atreides becomes embroiled in a web of politics, religion, and survival. The story explores themes of power, destiny, and ecological preservation as Paul rises to fulfill his potential as a messianic figure.",
+        coverImage: dune_cover, 
+        status: "finishedReading",
+        gerne:"Fiction"
+    },
+    {
+        title: "Dune 2",
+        author: "Frank Herbert",
+        description: "Dune by Frank Herbert is a science fiction epic set on the desert planet Arrakis, where young Paul Atreides becomes embroiled in a web of politics, religion, and survival. The story explores themes of power, destiny, and ecological preservation as Paul rises to fulfill his potential as a messianic figure.",
+        coverImage: dune_cover, 
+        status: "currentlyReading",
+        gerne: "Fiction"
+    },
+    {
+        title: "Meditations",
+        author: "Marcus Aurelius",
+        description: "Meditations (Koinē Greek: Τὰ εἰς ἑαυτόν, romanized: Ta eis heauton, lit. ''Things Unto Himself'') is a series of personal writings by Marcus Aurelius, Roman Emperor from 161-180 C.E., recording his private notes to himself and ideas on Stoic philosophy.",
+        coverImage: meditations_cover, 
+        status: "currentlyReading",
+        gerne: "Philosophy"
+    },
+    
+    
+    
 ];
